@@ -3,32 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo 应用 v1.0</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>人员定位安全管理系统</title>
   </head>
   <body>
-    <main class="app">
-      <h1>Todo List</h1>
-
-      <form id="todo-form" class="todo-form">
-        <input
-          id="todo-input"
-          type="text"
-          placeholder="请输入待办事项1..."
-          autocomplete="off"
-          required
-        />
-        <button type="submit">添加</button>
-      </form>
-
-      <section class="toolbar">
-        <span id="todo-count">0 项待办</span>
-        <button id="clear-completed" type="button">清空已完成</button>
-      </section>
-
-      <ul id="todo-list" class="todo-list"></ul>
-    </main>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
